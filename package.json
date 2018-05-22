@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@types/csv-parse": "^1.1.11",
+    "csv-parse": "^2.4.0",
     "gulp": "^3.9.1",
     "gulp-typescript": "^4.0.2",
     "typescript": "^2.8.3"
