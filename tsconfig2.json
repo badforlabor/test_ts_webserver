@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",   //ָ�������ĸ�ģ��ϵͳ����
+        "target": "es6",        //Ŀ���������
+        "noImplicitAny": false, //�ڱ��ʽ����������������'any'����ʱ����
+        "sourceMap": false,     //����debug   
+        "rootDir":"./src",      //���������������Ŀ¼�ṹ--outDir��
+        "outDir":"./build",     //�ض������Ŀ¼��   
+    },
+    "include":[
+        "./src/**/*"
+    ],
+    "exclude":[
+        "views",
+        "static"
+    ]
+}
